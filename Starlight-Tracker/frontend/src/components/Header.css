@@ -1,0 +1,31 @@
+/* Header.css */
+.header {
+    background-color: ; /* Dark background for the header */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.header-title {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5em; /* Larger font size for the title */
+    letter-spacing: 2px; /* Space out the letters slightly */
+}
+
+.nav {
+    margin-top: 10px; /* Space between title and navigation */
+}
+
+.nav-link {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add padding around links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.nav-link:hover {
+    background-color: #edfd0a; /* Yellow background on hover */
+    color: red; /* Dark text color on hover */
+}
